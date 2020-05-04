@@ -11,7 +11,7 @@ namespace CNUSPACKER
     {
         private static void Main(string[] args)
         {
-            Console.WriteLine("CNUS_Packer v0.01 by NicoAICP [C# Port of NUSPacker by timogus]\n\n");
+            Console.WriteLine("CNUSPacker v0.01-c2w by NicoAICP [C# Port of NUSPacker by timogus, FIX94]\n\n");
 
             string inputPath = "input";
             string outputPath = "output";
