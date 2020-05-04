@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace CNUSPACKER.packaging
+namespace CNUSPacker.Packaging
 {
     public class ContentRule
     {
@@ -42,6 +42,12 @@ namespace CNUSPACKER.packaging
             commonRules.Add(new ContentRule(@"^/code/htk\.bin$", commonDetailsCode));
             commonRules.Add(new ContentRule(@"^/code/rvlt\.tik$", commonDetailsCode));
             commonRules.Add(new ContentRule(@"^/code/rvlt\.tmd$", commonDetailsCode));
+
+            commonRules.Add(new ContentRule(@"^/code/boot\.bin$", commonDetailsCode));
+            commonRules.Add(new ContentRule(@"^/code/c2w\.img$", commonDetailsCode));
+            commonRules.Add(new ContentRule(@"^/code/deint\.txt$", commonDetailsCode));
+            commonRules.Add(new ContentRule(@"^/code/dmcu\.d\.hex$", commonDetailsCode));
+            commonRules.Add(new ContentRule(@"^/code/font\.bin$", commonDetailsCode));
 
             commonRules.Add(new ContentRule(@"^/content/.*$", commonDetailsContent));
 
